@@ -45,3 +45,49 @@ ul {
   font-size: 24px;
   font-weight: bold;
 }
+
+.description {
+  display: flex;
+  background-color: #1F2937;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description-left-side, .description-right-side {
+  display: flex;
+  margin: 0 68px 40px;
+  min-height: 300px;
+}
+
+.description-image {
+  max-height: 300px;
+}
+
+.description-left-side {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.description-left-side-title {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+  margin: 0;
+}
+
+.description-left-side-description {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 0;
+}
+
+.description-button {
+  background-color: #3882F6;
+  border-style: none;
+  border-radius: 5px;
+  padding: 6px;
+  color: #F9FAF8;
+  width: 90px;
+  font-weight: bold;
+  margin: 10px 0;
+}
