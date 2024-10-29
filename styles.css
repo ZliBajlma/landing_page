@@ -184,7 +184,7 @@ ul {
 }
 
 .action-description {
-  font-size: 18;
+  font-size: 16px;
   margin: auto;
   color: #E5E7EB;
 }
@@ -201,3 +201,10 @@ ul {
   border: 2px solid #F9FAF8;
 }
 
+.footer {
+  background-color: #1F2937;
+  font-size: 16px;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 40px 0;
+}
