@@ -104,6 +104,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 0 80px;
 }
 
 .information-title {
@@ -130,4 +131,29 @@ ul {
   flex-direction: column;
   align-items: center;
   gap: 5px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 100px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1F2937;
+  display: flex;
+  justify-content: center;
+  padding: 0 100px;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: end;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 100px;
 }
